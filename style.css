@@ -1,0 +1,688 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    
+}
+.nav-section{
+    width: 100%;
+    margin: auto;
+    height:100vh;
+    background-image: linear-gradient(
+        to right,
+        rgba(11, 13, 36, 0.4),
+        rgba(210, 201, 200, 0.2)
+      ),  url(imgfolder/pexels-pixabay-276583.jpg);
+    background-position:center;
+    background-repeat: none;
+    background-size: cover ;
+    
+}
+.nav-area{
+    width: 80%;
+    margin:auto;
+    padding: 50px;
+    position: sticky;
+    padding-bottom: 50px;
+    /* text-align: center; */
+}
+.nav-items{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+@media screen and (max-width: 750px) {
+    .nav-area{
+        width: 80%;
+        margin:auto;
+        padding: 30px;
+        position: sticky;
+        padding-bottom: 50px;
+        /* text-align: center; */
+    }
+    .text-elements .h3{
+        padding-top: 30px;
+        font-size: 45px;
+        color: rgb(255, 250, 250); 
+    }
+    .text-elements .p{
+        font-size: 15px;
+        margin-top:30px;
+        color: rgb(253, 252, 252);
+        padding-bottom: 20px;
+    }
+    .nav-area .button{
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        letter-spacing: 1px;
+        color: rgb(228, 223, 223);
+        background-color: transparent ;
+    }
+    .grids{
+        width: 200px;
+    }
+    .section4{
+        width: 100%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .sectionIv{
+        width: 80%;
+        margin: auto;
+    }
+    .flexItems{
+        padding: 50px;
+    }
+    .gridContainer2{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
+        margin: auto;
+        padding-bottom:50px ;
+    }
+}
+.ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    list-style: none;
+    font-size: 15px;
+}
+.ul a{
+    text-decoration: none;
+    
+}
+li a{
+    color: white;
+    background-color: rgb(59, 56, 56);
+}
+.nav-icons{
+    display: flex;
+    gap: 20px;
+}
+.h3{
+    padding-top: 30px;
+    font-size: 50px;
+    color: rgb(255, 250, 250); 
+}
+.p{
+    font-size: 17px;
+    margin-top:30px;
+    color: rgb(253, 252, 252);
+    padding-bottom: 20px;
+}
+.button{
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    color: rgb(228, 223, 223);
+    background-color: transparent ;
+}
+.button:hover{
+    color: blue;
+    background-color: none;
+}
+.nav-icons{
+    color: whitesmoke;
+}
+.section2{
+    width: 100%;
+    padding: 50px 0px; 
+    margin: auto;
+
+}
+.sectionGrid{
+    display: flex;
+    gap: 7%;
+    width: 80%;
+    margin: auto;
+}
+.text{
+    width: 30%;
+    
+}
+.text h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.text p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 15px;
+}
+.gridd{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+    grid-gap: 5%;
+    width: 100%;
+    margin: auto;
+}
+#sofa{
+    padding-left: 20px;
+}
+.section3{
+    background-color: rgba(210, 201, 200, 0.2) ;
+    width: 100%;
+    margin: auto;
+    padding: 30px 0px;
+}
+.sectionFlex{width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 7%;
+    ;   
+}
+@media screen and (max-width: 981px ) {
+    .textNgrid{
+       font-size: 13px;
+       padding-bottom: 30px;
+    }
+   
+    .img1{
+        width: 150px; height: 350px;
+    }
+    .img2{
+        width: 180px;  ;
+    }
+    .imgIII{
+        width: 230px; height: 200px;
+    }
+}
+@media screen and (max-width: 600px ) {
+    .sectionFlex{
+        display: flex;
+        flex-direction: column-reverse; gap: 10%;
+        width: 80%;
+    }
+    .textNgrid{
+        font-size: 12px;
+        padding: 0px 0px;
+;       width: 80%;
+        margin: o; 
+     }
+    .textt h6{
+        font-size: 15px;
+    }
+     .img1{
+        margin-left: 20px;
+         width: 150px; height: 250px;
+     }
+     .imgg2{
+         width: 128px;height: 250px;
+         margin-right: 50px;
+     }
+     .imgIII{
+        margin-right: 1;
+         width: 130px; height: 250px;
+        
+     }
+     .imgpositioning{
+        width: 80%;;
+        margin: auto;
+     }
+}
+.textNgrid{
+    padding-top: 30px;
+    width: 80%;
+    font-size: 14px;
+    line-height: 25px;
+    
+}
+.textt h6{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.textt p{
+    padding-bottom: 20px;
+    
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5%;
+    margin: auto;
+    width: 100%;
+}
+
+#img{
+    border-radius: 20px;
+    
+}
+.imgpositioning{
+    padding-top: 1px;
+}
+.img1{
+    position: absolute;
+}
+.imgg2{
+    position: relative;
+    left: 40%;
+}
+.imgIII{
+    position: relative;
+    bottom: 2%; left: 20%;
+
+}
+
+.section3b{
+    width: 100%;
+    margin: auto;
+}
+#sectionFlexx{
+    width: 80%;
+    
+    margin: auto;
+   display: flex;
+   gap: 5%;
+}
+.textNgridd{
+    width:80%;
+    font-size: 14px;
+    line-height: 25px;
+}
+.textNgridd h3{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+    .imagee{
+        width: 200px;
+        height: 400px;
+    }
+    .imge{
+        width: 200px;
+        height: 400px; 
+    }
+    .textNgridd{
+        font-size: 13px;
+       padding-bottom: 25px;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    #sectionFlexx{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+}
+.sectionFlex{
+    display: flex;
+    width: 80%;
+    gap: 10%;
+    margin: auto;
+}
+.textNgridd{
+    font-size: 14px;
+   padding-bottom: 25px;
+   width: 80%;
+   margin: auto;
+}
+.fleximg{
+    display: flex;;
+    margin: auto;
+}
+.imagee{
+    width: 300px;
+    height: 350px;
+}
+.imge{
+    width: 300px;
+    height: 350px; 
+}
+.textNgrid{
+    padding-top: 25px;
+    width: 50%;
+    font-size: 13px;
+    line-height: 25px;
+    
+}
+#imgg{
+    width: 150px; height: 200px;
+    position: relative;
+    border-radius: 50%; left: 150px;
+}
+#imago{
+    width: 100px; height: 380px;
+    padding-top: 35px;
+    position: absolute;
+    border-radius: 40px;
+} 
+}
+
+@media screen and (max-width: 600px) {
+    #sectionFlexx{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+}
+}
+.imagee{
+    width: 150px;
+    height: 350px;
+}
+.imge{
+    width: 150px;
+    height: 350px; 
+}
+.textNgridd{
+    font-size: 13px;
+   padding-bottom: 25px;
+   width: 80%;
+   margin: auto;
+}
+
+.textt h6{
+    font-size: 15px;
+}
+.text h3{
+    font-size: 20px;
+    text-align: left;
+}
+
+.textt h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.fleximg{
+    display: flex;
+    width: 80%;
+    
+}
+.sectionIv{
+    width: 80%;
+    margin: auto;
+}
+.flexItems{
+    display: flex;
+    justify-content: space-between;
+}
+.testimonials{
+    width: 50%;
+    /* height: 100%; */
+    margin: auto;
+    text-align: center;
+}
+.innersection{
+    width: 50%;
+}
+
+.testimonials{
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px;
+    background-image: linear-gradient(to right, rgba(67, 68, 77, 0.7),
+    rgba(210, 201, 200, 0.2)), url(imgfolder/pexels-fotoaibe-1571471.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.testi{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.testimonials h3{
+    line-height: 40px;
+}
+.testimonials p{
+    line-height: 35px;
+}
+.testimonialimg{
+    padding-top: 50px;
+}
+.section4{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+}
+.sectionIv{
+    width: 80%;
+    margin: auto;
+}
+.flexItems{
+    padding: 50px;
+}
+.gridContainer2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin: auto;
+    padding-bottom:50px ;
+}
+.footer{width: 100%;
+    margin: auto;
+    color: whitesmoke;
+    background-color: black;
+    padding-top: 50px;
+}
+.textsNlists{
+    display: flex;
+    gap: 10%;
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+    font-size: 15px;
+}
+.texttt{
+    width: 30%;
+    text-align: justify;
+}
+.texttt h3{
+    padding-bottom: 15px;
+}
+#icon{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.lists{
+    display: flex;
+    gap: 5%;
+}
+.listss{
+   list-style: none;
+   padding-right: 50px;
+}
+.copyright{
+    width: 100%;
+    margin: auto;
+}
+.flexx{
+    display: flex;
+    justify-content: space-between;
+    gap:10%;
+    width: 80%;
+    margin: auto;
+}
+/* ==========abouthtml============= */
+#gridabout{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin: auto;
+    width: 100%;
+}
+.sectionIII{
+    width: 100%;
+    margin: auto;
+}
+#imgpositioning{
+    width: 70%;
+    margin: auto;
+}
+#imgg{
+    position: relative;
+    border-radius: 50%; left: 200px;
+}
+#imago{
+    padding-top: 50px;
+    position: absolute;
+    border-radius: 40px;
+} 
+.ourteam{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+ .innerdiv{
+    width: 80%;
+    margin: auto;
+}
+.innerdiv h2{
+    font-size: 25px;
+}
+.innerdiv h3{
+    font-size: 18px;
+}
+.teamgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 50px;
+    margin: auto;
+    width: 100%;
+}
+.teamimg{
+    /* width: 100%; */
+    text-align: left;
+    
+}
+@media screen and (max-width: 1080px) {
+    #imgg{
+        width: 200px; height: 200px;
+        position: relative;
+        border-radius: 50%; left: 150px;
+    }
+    #imago{
+        width: 200px; height: 380px;
+        padding-top: 35px;
+        position: absolute;
+        border-radius: 40px;
+    } 
+}
+
+/* =============================CONTACTUS=============== */
+.form{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 50px 0px;
+    background-color: rgba(219, 206, 204, 0.2) ;
+    
+}
+.innerwidth{
+    width: 40%;
+    margin: auto;
+    background-color: rgba(36, 31, 31, 0.2) ;
+    padding: 30px 0px;
+    padding-left: 50px;
+    border-radius: 30px;
+}
+.icontxt{
+   display: flex;
+   justify-content: space-between;
+  gap: 3%;
+   font-size: 13px
+}
+#contactUsForm{
+    padding-left: 0;
+}
+.names{
+    padding-right: 0px; 
+    margin: 22px 3px; 
+    height: 40px; width: 65%;
+}
+#surname{
+    width: 60%;
+}
+#email{
+    padding-right: 0px; 
+    margin: 22px 3px; 
+    height: 40px; width: 67%;
+}
+#password{
+    padding-right: 0px; 
+    height: 40px; width: 60%;
+    margin: 10px 0px; 
+}
+.gender{
+    margin: 10px;
+}
+@media screen and (max-width: 930px) {
+    .innerwidth{
+        padding-right: 30px
+    }
+    .icontxt{
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 850px) {
+    
+    .innerwidth{
+        width: fit-content;
+        margin: auto;
+    }
+
+    .icontxt{
+        padding-right: 30px;
+    }
+   .sectionFlex{
+    display: flex;
+    width: 80%;
+    gap: 7%;
+    margin: auto;
+    }
+    .textNgrid{
+    padding-top: 25px;
+    width: 40%;
+    font-size: 13px;
+    line-height: 25px;   
+    }
+    #imgg{
+        
+        margin-top: 20px;
+        position: relative;
+        border-radius: 50%; left: 120px;
+    }
+    #imago{
+        width: 170px;
+        padding-top: 50px;
+        position: absolute;
+        border-radius: 40px;
+    } 
+}
+@media screen and (max-width: 680px) {
+    #imgg{
+        
+        margin-top: 20px;
+        position: relative;
+        border-radius: 50%; left: 120px;
+    }
+    #imago{
+        width: 150px;
+        padding-top: 50px;
+        position: absolute;
+        border-radius: 40px;
+    } 
+    .textNgrid{
+        padding-top: 25px;
+        padding-right: 50px;
+        width: 30%;
+        font-size: 13px;
+        line-height: 25px;   
+        }
+}
